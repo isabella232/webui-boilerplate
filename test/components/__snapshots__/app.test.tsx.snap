@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app dumb component test matches the snapshot 1`] = `
+<div
+  id="featurePage"
+>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Clear localStorage
+    </button>
+    <h2>
+      Brave People
+    </h2>
+    <ul>
+      <li>
+        Ross
+        <button
+          onClick={[Function]}
+        >
+          (+)
+        </button>
+      </li>
+      <li>
+        Anthony
+        <button
+          onClick={[Function]}
+        >
+          (+)
+        </button>
+      </li>
+      <li>
+        Serg
+        <button
+          onClick={[Function]}
+        >
+          (+)
+        </button>
+      </li>
+    </ul>
+    <h2>
+      Amazing Brave people
+    </h2>
+    <ol />
+  </div>
+</div>
+`;
