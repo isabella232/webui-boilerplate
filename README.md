@@ -9,7 +9,7 @@
 ### Clone this project
 
 ```
-git clone git@github.com:brave-experiments/webui-feature-boilerplate.git
+git clone git@github.com:brave-experiments/webui-boilerplate.git
 ```
 
 ### Install dependencies
@@ -32,9 +32,6 @@ npm run lint
 
 # test (w/ Enzyme and Jest)
 npm run test
-
-# Deploy
-npm run deploy
 ```
 
 ## License
