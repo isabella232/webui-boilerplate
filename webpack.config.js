@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   devServer: {
     compress: true,
-    port: 9001
+    port: 9002
   },
   entry: {
     bundle: path.join(path.join(__dirname, 'src'), 'brave_feature')
@@ -12,7 +12,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.tsx', '.ts', '.json'],
     alias: {
-      'brave-ui': path.resolve(__dirname, '../../node_modules/brave-ui/src')
+      'brave-ui': path.resolve(__dirname, 'node_modules/brave-ui/src')
     },
     modules: [
       'node_modules',

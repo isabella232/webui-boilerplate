@@ -23,7 +23,7 @@
     "url": "https://brave-experiments@github.com/brave-experiments/webui-boilerplate.git"
   },
   "dependencies": {
-    "brave-ui": "^0.37.0",
+    "brave-ui": "github:brave/brave-ui#9a6c7b4de6a4a64b81f324ea0e14011dffca801b",
     "emptykit.css": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
